@@ -1,0 +1,22 @@
+.admin_createPanchayath_selectPresident_template{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+.admin_createPanchayath_selectPresident_template .table1234 {
+    width: 100%;
+}
+
+.admin_createPanchayath_selectPresident_template .table1234 .head{
+
+    font-weight: 700;
+    font-size: 20px;
+    width: 80px;
+}
+
+.admin_createPanchayath_selectPresident_template .table1234 .buttnCol{
+    width: 50px;
+}

@@ -1,0 +1,39 @@
+.sideNavBar{
+
+    /* width: 276px; */
+    background: #FFFFFF;
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px 12px 12px 12px;
+    height: 100%;
+
+}
+
+.sideNavBarOuter {
+    width: 250px;
+    height: 100%;
+    transition: width 0.2s;
+    overflow: hidden;
+}
+
+.navBarOuter{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+}
+
+.rightFlexItem {
+    flex-grow: 1
+}
+
+@media screen and (max-width: 800px) {
+    .sideNavBarOuter {
+      position: fixed;
+      top: 80px;
+
+    }
+  }
+
+
+
+

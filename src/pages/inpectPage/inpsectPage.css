@@ -1,0 +1,12 @@
+.InspectPage_contentDiv{
+    height: 100vh;
+    width: 100vw;
+    padding: 12px;
+    background-color: rgb(227, 242, 220);
+}
+.InspectPage_contentInnerDiv{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}

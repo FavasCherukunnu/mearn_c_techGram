@@ -1,0 +1,127 @@
+.user_info_topNav {
+    display: flex;
+
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    /* box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.275); */
+    border-radius: 12px 12px 0px 0px;
+    background-color: rgb(247, 243, 243);
+    /* width: 90%; */
+    margin: 10px 30px 0px 30px;
+}
+
+.user_info_topNav_content {
+    height: 50px;
+    width: 50%;
+    border-width: 1px 1.8px 0px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    /* shadow spread */
+
+    /* box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.275); */
+    border-radius: 12px 12px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.user_wardInfo_outerDiv {
+    height: calc(100% - 50px);
+    width: 100%;
+    /* flex-grow: 1; */
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.user_wardInfo_innerDiv1 {
+    /* max-height: calc(100vh - 120px); */
+    width: 60%;
+    height: 100%;
+    /* padding: 15px; */
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 14px -3px rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.user_wardInfo_RightOuter {
+    padding-left: 15px;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.user_wardInfo_innerDiv2 {
+    width: 100%;
+    height: 100%;
+
+    /* padding: 15px; */
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.275);
+    border-radius: 12px;
+    /* position: relative; */
+    overflow: hidden;
+
+}
+
+.user_wardInfo_innerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* max-height: 100%; */
+    /* flex-wrap: wrap; */
+    /* min-height: min-content; */
+    padding: 20px;
+    /* min-height: max-content; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.user_wardInfo_avatar {
+    min-height: 100px;
+    /* min-width: 100px; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user_wardInfo_memberAvatar {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.user_wardInfo_memberName {
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+.user_wardInfo_notification {
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 2;
+}
+
+.user_home_postDiv{
+    max-height: 100%;
+    overflow-y: auto;
+}

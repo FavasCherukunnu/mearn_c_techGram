@@ -1,0 +1,32 @@
+.user_sideNavLink {
+
+    /* background: #81F14D; */
+    /* box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.08); */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: black;
+    
+}
+
+.user_sideNavText{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.active .user_sideNavLink{
+    background-color: #81F14D; 
+    color: white;
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.08);
+}
+.user_sideNavLink:hover{
+    background-color: #CEEEBF;
+}
+.active .user_sideNavLink:hover{
+    background-color: #81F14D; 
+    color: white;
+}

@@ -1,0 +1,131 @@
+.user_GramSabhaTemplate_outerDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.user_GramSabhaTemplate_innerDiv {
+    /* width: 800px; */
+    /* height: 400px; */
+    white-space: pre-wrap;    word-wrap: break-word;
+    flex-grow: 1;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.user_GramSabhaTemplate_autherDiv{
+    height: 40px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-color: #81F14D;
+    border-radius: 12px 12px 0px 0px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.user_GramSabhaTemplate_contenDiv{
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    overflow: hidden;
+}
+.user_GramSabhaTemplate_contenDiv .heading{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.user_GramSabhaTemplate_Decisions{
+    width: 60%;
+    /* max-height: 500px; */
+    overflow: hidden;
+}
+.user_GramSabhaTemplate_informations{
+    padding-left: 15px;
+    width: 40%;
+}
+.GramSabhaTemplate_boldText{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.user_GramSabhaCommitte_table{
+    width: 100%;
+}
+.user_GramSabhaCommitte_table .first{
+    text-align: left;
+    vertical-align: text-top;
+    line-height: 1;
+    width: 100px;
+}
+.user_GramSabhaCommitte_table .Second{
+    text-align: left;
+    line-height: 1;
+    vertical-align: text-top;
+    padding-bottom: 15px;
+    /* width: 100px; */
+}
+
+.user_GramSabhaTemplate_contenDiv .body{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.user_GramSabhaTemplate_contenDiv .intractionDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+}
+
+.user_GramSabhaTemplate_imageSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 800px) {
+    .user_GramSabhaTemplate_outerDiv {
+        padding:8px ;
+        padding-bottom: 20px;
+
+    }
+
+
+    
+}
+
+@media screen and (max-width: 1000px){
+    .user_GramSabhaTemplate_outerDiv{
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .user_GramSabhaTemplate_contenDiv{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .user_GramSabhaTemplate_Decisions{
+        width: 100%;
+    }
+    .user_GramSabhaTemplate_informations{
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+}

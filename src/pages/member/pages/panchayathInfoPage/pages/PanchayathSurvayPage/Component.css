@@ -1,0 +1,68 @@
+.user_panchayathInfo_survay_topBar_outerDiv {
+    /* position: sticky;
+    top: 0; */
+    width: 100%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.user_panchayathInfo_survay_topBar_outerDiv .title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.user_panchayathInfo_survay_topBar_outerDiv_dropDownDiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.user_panchayathInfo_survay_topBar_outerDiv_dropDownDiv .dropdownText {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.user_panchayathInfo_survay_survayList_outerDiv {
+    width: 100%;
+    overflow: auto;
+    height: calc(100% - 100px);
+    /* flex-grow: 1; */
+}
+
+.user_panchayathInfo_survay_survayList_survayTemplate {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-top: 10px;
+    /* height: 100px; */
+    width: 100%;
+}
+.user_panchayathInfo_survay_survayList_table{
+    width: 100%;
+}
+.user_panchayathInfo_survay_survayList_table th{
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.user_panchayathInfo_survay_survayList_table .h_first{
+    width: 40px;
+}
+.user_panchayathInfo_survay_survayList_template{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+.user_panchayathInfo_survay_survayList_template td{
+    padding: 10px 5px 10px 0px;
+}
+
+.user_panchayathInfo_survay_survayList_table .h_fourth{
+    width: 60px;
+}

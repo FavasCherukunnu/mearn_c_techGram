@@ -1,0 +1,40 @@
+.UnderNavigationOuterDiv_mainouter {
+    padding: 15px;
+}
+
+.DivScrollableWithGeasture_innerDiv {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 14px -3px rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.DivScrollableWithGeasture_InnerInnerDiv {
+    padding: 35px;
+}
+.DivScrollableWithGeasture_InnerInnerDivP0{
+    padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .UnderNavigationOuterDiv_mainouter {
+        padding: 0px;
+    }
+
+    .DivScrollableWithGeasture_innerDiv {
+        background-color: transparent;
+        background: transparent;
+        border: 0px solid rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0px 0px 14px -3px rgba(0, 0, 0, 0);
+    }
+
+    .DivScrollableWithGeasture_InnerInnerDiv {
+        padding: 5px;
+    }
+    .DivScrollableWithGeasture_InnerInnerDivPt0{
+        padding: 0px 0px 0px 0px;
+    }
+}

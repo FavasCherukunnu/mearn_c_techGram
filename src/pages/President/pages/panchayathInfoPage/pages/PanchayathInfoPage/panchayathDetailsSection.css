@@ -1,0 +1,28 @@
+.user_panchayathDetails_panchayathInfo_detailsSection{
+    width: 100%;
+}
+.user_PanchayathInfo_PanchayathDetails_avatar {
+    min-height: 100px;
+    /* min-width: 100px; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user_PanchayathInfo_PanchayathDetails_outerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_PanchayathInfo_PanchayathDetails_memberAvatar {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.user_PanchayathInfo_PanchayathDetails_memberName {
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 0;
+    padding: 20px 0px 0px 0px;
+}

@@ -1,0 +1,19 @@
+.user_locatePage_TopSection {
+    background: #FFFFFF;
+    /* shadow */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_locatePage_TopSection_firstInputDiv{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.user_locatePage_TopSection_dropDownDiv{
+    display: flex;
+    align-items: center;
+}

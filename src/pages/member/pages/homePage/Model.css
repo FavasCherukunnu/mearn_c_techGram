@@ -1,0 +1,14 @@
+.user_wardInfo_homePage_discussion_footerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_wardInfo_homePage_discussion_footerDiv_inputDiv{
+    flex-grow: 1;
+    padding-right: 10px;
+}
+.user_wardInfo_homePage_discussion_bodyDiv{
+    max-height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,40 @@
+.user_survay_survayList_outerDiv{
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    overflow-x: hidden;
+    height: 100%;
+
+}
+
+
+.user_survay_survayList_table{
+    width: 100%;
+}
+.user_survay_survayList_table th{
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+.user_survay_survayList_table .h_first{
+    width: 40px;
+    padding-left: 5px;
+}
+.user_survay_survayList_template{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+.user_survay_survayList_template td{
+    padding: 10px 5px 10px 0px;
+}
+
+.user_survay_survayList_table .h_fourth{
+
+    width: 60px;
+}
+
+.user_survay_survayList_template .first{
+    padding-left: 5px;
+}

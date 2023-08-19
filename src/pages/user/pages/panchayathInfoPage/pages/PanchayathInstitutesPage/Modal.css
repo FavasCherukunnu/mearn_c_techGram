@@ -1,0 +1,13 @@
+.user_wardInfo_Modal_outerDiv {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.user_wardInfo_Modal_outerDiv .text {
+    line-height: 0.8;
+}

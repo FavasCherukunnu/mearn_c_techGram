@@ -1,0 +1,112 @@
+.rootDiv {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(227, 242, 220);
+    position: relative;
+    overflow: hidden;
+    /* min-height: 700px; */
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.topFlexiv {
+
+    width: 100%;
+    /* min-height: 500px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* overflow-y: auto; */
+}
+
+
+.gridDiv {
+    /* width: 100%; */
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 80px;
+}
+
+.gridItem {
+    width: 550px;
+}
+
+.hero_title {
+    font-size: 48px;
+    text-align: left;
+    font-weight: 700;
+    /* font-family: "Alumni Sans", Helvetica, Arial, serif; */
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.medium_title {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    /* font-family: "Alumni Sans", Helvetica, Arial, serif; */
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin: 10px 1px 0px;
+}
+
+.rect {
+    width: 100%;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    border-style: none;
+    font-size: large;
+}
+
+.content_box {
+    width: 536px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.medium_title11 {
+    width: 176px;
+    height: 45px;
+    /* left: calc(50% - 176px/2 + 10px); */
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    background: #81F14D;
+    /* shadow */
+
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-top: 20px;
+    border-style: none;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .gridItem {
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .gridDiv {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gridItem {
+        width: 300px;
+    }
+}

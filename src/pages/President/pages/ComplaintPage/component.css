@@ -1,0 +1,173 @@
+.RoundedIconBUtton_outer {
+    width: 52px;
+    height: 52px;
+    background: #81F14D;
+    /* light border */
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.13);
+    border-radius: 49px 49px 49px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.user_ComplaintTemplate_outerDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.user_ComplaintTemplate_innerDiv {
+    /* width: 800px; */
+    /* height: 400px; */
+    white-space: pre-wrap;    word-wrap: break-word;
+    flex-grow: 1;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.user_ComplaintTemplate_autherDiv{
+    width: 100%;
+    padding: 5px;
+
+    border-radius: 12px 12px 0px 0px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.user_ComplaintTemplate_contenDiv{
+    padding: 20px;
+}
+
+.user_ComplaintTemplate_contenDiv .heading{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.user_ComplaintTemplate_contenDiv .body{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.user_ComplaintTemplate_contenDiv .intractionDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+}
+.user_ComplaintTemplate_contenDiv .interactionOnly{
+    display: flex;
+}
+.user_ComplaintTemplate_imageSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+}
+.user_ComplaintTemplate_imageDiv{
+    height: 200px;
+    max-width: 400px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 12px 12px 12px 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 100px;
+}
+
+.user_ComplaintTemplate_image{
+    height: 100%;
+    /* width: 100%; */
+    
+    object-fit: contain;
+    
+}
+
+.user_complaintPage_complaintDiv_dropDownDiv{
+    height: 45px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+.user_complaintPage_complaintDiv_dropDownDiv .dropdownText{
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.user_homePage_complaintDiscussion_template {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 50px 50px 5px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.user_homePage_complaintDiscussion_template_userName {
+
+    background-color: #81F14D;
+    color: white;
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+}
+
+.user_homePage_complaintDiscussion_template_text {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.user_homePage_complaintDiscussion_template_time {
+    padding: 0px 5px 5px 5px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .user_ComplaintTemplate_outerDiv {
+        padding:0px ;
+        padding-top:20px ;
+        padding-bottom: 50px;
+
+    }
+    .user_homePage_complaintDiscussion_template {
+        margin: 30px 0px 5px 0px;
+
+    }
+    
+}
+
+/* @media screen and (max-width:1000px){
+    .user_postTemplate_imageSpace{
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 300px;
+    }
+} */

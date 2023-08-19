@@ -1,0 +1,21 @@
+.user_wardInfo_userPage_model_Table{
+    width: 100%;
+}
+
+.user_wardInfo_userPage_model_Table .first{
+    width: 120px;
+}
+
+.user_wardInfo_userPage_model_AvatarOuter{
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.user_wardInfo_userPage_model_AvatarOuter img{
+    object-fit: cover;
+    height: 200px;
+}

@@ -1,0 +1,30 @@
+.IconButtonWIthText_outerDiv{
+    padding: 10px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(171, 171, 171, 0.173);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.IconButtonWIthText_outerDiv2{
+    padding: 10px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(171, 171, 171, 0.173);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.IconButtonWIthText_outerDiv .textStyle{
+    font-weight: 600;
+}
+
+.IconButtonWIthText_outerDiv:hover{
+    background-color: rgba(171, 171, 171, 0.499);
+}

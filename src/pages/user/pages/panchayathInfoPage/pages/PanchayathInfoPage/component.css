@@ -1,0 +1,28 @@
+
+.ExpandListHeaderinnerDiv{
+    background-color:#81F14D ;
+}
+
+.ExpandListHeaderinnerDiv:hover{
+    background-color: #79df4a;
+}
+
+.user_panchayathInfo_panchayath_table {
+    /* width: 90%; */
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.user_panchayathInfo_panchayath_table .first {
+    /* padding-left: 20px; */
+    width: 100px;
+    text-align: left;
+}
+
+.user_panchayathInfo_panchayath_table .second {
+    /* width: 200px; */
+    text-align: left;
+    font-weight: 700;
+}

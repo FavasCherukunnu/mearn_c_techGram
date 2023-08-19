@@ -1,0 +1,25 @@
+.user_homePage_outerDiv {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.user_homePage_innerDiv {
+    /* max-height: calc(100vh - 120px); */
+    width: 100%;
+    height: 100%;
+    /* padding: 15px; */
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 14px -3px rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+
+}
+.user_home_postDiv{
+    max-height: 100%;
+    overflow-y: auto;
+}
+

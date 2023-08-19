@@ -1,0 +1,28 @@
+.user_wardInfo_wardDetails_table {
+    /* width: 90%; */
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.user_wardInfo_wardDetails_table .first {
+    /* padding-left: 20px; */
+    width: 200px;
+    text-align: left;
+}
+
+.user_wardInfo_wardDetails_table .second {
+    /* width: 200px; */
+    text-align: left;
+}
+
+
+.user_wardInfo_notfication_template{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    min-height: 40px;
+    border-radius: 12px;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 0px 5px 0px;
+}

@@ -1,0 +1,243 @@
+.RoundedIconBUtton_outer {
+    width: 52px;
+    height: 52px;
+    background: #81F14D;
+    /* light border */
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.13);
+    border-radius: 49px 49px 49px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.RoundedIconBUtton_outer:hover {
+    background: #7ae349;
+    cursor: pointer;
+    box-shadow: 6px 6px 8px -2px rgba(0, 0, 0, 0.379);
+}
+.user_CarouselPost_OwnerName{
+    line-height: 1.2;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.user_postTemplate_outerDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.user_carosolPost_outerDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_postTemplate_innerDiv {
+    /* width: 800px; */
+    /* height: 400px; */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    flex-grow: 1;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.user_homePage_discussion_template {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 50px 50px 5px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.user_homePage_discussion_template_userName {
+
+    background-color: #81F14D;
+    color: white;
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+}
+
+.user_homePage_discussion_template_text {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.user_homePage_discussion_template_time {
+    padding: 0px 5px 5px 5px;
+
+}
+
+.user_postTemplate_autherDiv1 {
+    padding: 5px;
+    width: 100%;
+    background-color: #81F14D;
+    border-radius: 12px 12px 0px 0px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.user_postTemplate_autherDiv_text{
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.user_postTemplate_contenDiv {
+    padding: 20px;
+}
+
+.user_postTemplate_contenDiv .heading {
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.user_postTemplate_contenDiv .body {
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.user_postTemplate_contenDiv .intractionDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+    justify-content: start;
+    align-items: center;
+    /* max-width: 150px; */
+}
+.user_postTemplate_contenDiv .botttt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.user_postTemplate_imageSpace {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+}
+
+.user_postTemplate_imageDiv {
+    height: 300px;
+    max-width: 400px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 12px 12px 12px 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 250px;
+}
+
+.user_postTemplate_image {
+    height: 100%;
+    /* width: 100%; */
+    object-fit: contain;
+
+}
+
+.user_CarouselPost_outerDiv {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    /* padding-top: 10px; */
+    /* padding-bottom: 50px; */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.5); */
+    /* z-index: 100; */
+}
+.user_CarouselPost_ImageInnerDiv {
+    width: 100%;
+    /* height: 405px; */
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+.user_CarouselPost_whiteBottomDiv{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    background-image: linear-gradient(transparent , black 80%);
+    position: absolute;
+    bottom: 0px;
+}
+.user_CarouselPost_contenDiv{
+    white-space: pre-line;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    text-align: justify;
+    
+    /* position: absolute; */
+    /* top: 380px; */
+}
+
+.user_CarouselPost_contenDiv .intractionDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* max-width: 150px; */
+}
+.user_CarouselPost_contenDiv_text{
+    /* background-color:  black !important; */
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .user_postTemplate_outerDiv {
+        padding: 0px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .user_homePage_discussion_template {
+        margin: 30px 0px 5px 0px;
+
+    }
+
+
+}
+
+/* @media screen and (max-width:1000px){
+    .user_postTemplate_imageSpace{
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 300px;
+    }
+} */

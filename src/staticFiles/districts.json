@@ -1,0 +1,1262 @@
+{
+  "districts": [
+    {
+      "id": 1,
+      "name": "Alappuzha"
+    },
+    {
+      "id": 2,
+      "name": "Ernakulam"
+    },
+    {
+      "id": 3,
+      "name": "Idukki"
+    },
+    {
+      "id": 4,
+      "name": "Kannur"
+    },
+    {
+      "id": 5,
+      "name": "Kasaragod"
+    },
+    {
+      "id": 6,
+      "name": "Kollam"
+    },
+    {
+      "id": 7,
+      "name": "Kottayam"
+    },
+    {
+      "id": 8,
+      "name": "Malappuram",
+      "block_panchayats": [
+        {
+          "id": 1,
+          "name": "Tirur",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Purathur"
+            },
+            {
+              "id": 2,
+              "name": "Thalakkad"
+            },
+            {
+              "id": 3,
+              "name": "Triprangodu"
+            },
+            {
+              "id": 4,
+              "name": "Thirunavaya"
+            },
+            {
+              "id": 5,
+              "name": "Mangalam"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Areacode",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Urangattiri",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Kavanur",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Keezhuparambu",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Pulpatta",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Cheekode",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Areacode",
+              "block_panchayat_id": 10
+            },
+            {
+              "id": 7,
+              "name": "Kuzhimanna",
+              "block_panchayat_id": 11
+            },
+            {
+              "id": 8,
+              "name": "Edavanna",
+              "block_panchayat_id": 11
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Tirurangadi",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Thenhippalam"
+            },
+            {
+              "id": 2,
+              "name": "Vallikkunnu"
+            },
+            {
+              "id": 3,
+              "name": "Moonniyur"
+            },
+            {
+              "id": 4,
+              "name": "Nannambra"
+            },
+            {
+              "id": 5,
+              "name": "Peruvallur"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Malappuram",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Kodur",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Anakkayam",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Morayur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Ponmala",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Pookottur",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Othukkungal",
+              "block_panchayat_id": 10
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Kondotty",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Chelembra",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Cherukavu",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Pallikkal",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Vazhayur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Vazhakkad",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Pulikkal",
+              "block_panchayat_id": 10
+            },
+            {
+              "id": 7,
+              "name": "Muthuvallur",
+              "block_panchayat_id": 11
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Kuttipuram",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Athavanad",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Edayur",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Irimbiliyam",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Marakkara",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Kuttippuram",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Kalpakanchery",
+              "block_panchayat_id": 10
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Mankada",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Kuruva",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Mankada",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Makkaraparambu",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Moorkanad",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Koottilangadi",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Puzhakkattiri",
+              "block_panchayat_id": 10
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Nilambur",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Chaliyar",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Chungathara",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Moothedam",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Vazhikkadavu",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Edakkara",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Pothukallu",
+              "block_panchayat_id": 10
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Perinthalmanna",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Alipparambu",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Elamkulam",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Melattur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Keezhattur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Thazhekode",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Vettathur",
+              "block_panchayat_id": 10
+            },
+            {
+              "id": 7,
+              "name": "Pulamanthole",
+              "block_panchayat_id": 11
+            },
+            {
+              "id": 8,
+              "name": "Angadippuram",
+              "block_panchayat_id": 12
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Perumbadappu",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Alancode",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Maranchery",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Nannamukku",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Perumpadappu",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Veliyancode",
+              "block_panchayat_id": 9
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Ponnani",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Thavanur",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Vattamkulam",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Edappal",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Kalady",
+              "block_panchayat_id": 3
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Tanur",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Perumanna Clari",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Cehriyamundam",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Ozhur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Thanalur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Valavannur",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Ponmundam",
+              "block_panchayat_id": 10
+            },
+            {
+              "id": 7,
+              "name": "Niramarathur",
+              "block_panchayat_id": 11
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Vengara",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "A.R Nagar",
+              "block_panchayat_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Edarikkode",
+              "block_panchayat_id": 2
+            },
+            {
+              "id": 3,
+              "name": "Parappur",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 4,
+              "name": "Thennala",
+              "block_panchayat_id": 3
+            },
+            {
+              "id": 5,
+              "name": "Vengara",
+              "block_panchayat_id": 9
+            },
+            {
+              "id": 6,
+              "name": "Kannamangalam",
+              "block_panchayat_id": 10
+            },
+            {
+              "id": 7,
+              "name": "Oorakam",
+              "block_panchayat_id": 11
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Wandoor",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Mampad"
+            },
+            {
+              "id": 2,
+              "name": "Pandikkad"
+            },
+            {
+              "id": 3,
+              "name": "Porur"
+            },
+            {
+              "id": 4,
+              "name": "Trikkalangode"
+            },
+            {
+              "id": 5,
+              "name": "Thirurvali"
+            },
+            {
+              "id": 6,
+              "name": "Wandoor"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Kalikavu",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Amarambalam"
+            },
+            {
+              "id": 2,
+              "name": "Karuvali"
+            },
+            {
+              "id": 3,
+              "name": "Kalikavu"
+            },
+            {
+              "id": 4,
+              "name": "Chokkad"
+            },
+            {
+              "id": 5,
+              "name": "Karuvarakundu"
+            },
+            {
+              "id": 6,
+              "name": "Tuvvur"
+            },
+            {
+              "id": 7,
+              "name": "Edappatta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Palakkad",
+      "block_panchayats": [
+        {
+          "id": 1,
+          "name": "Alathur",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Alathur (ct)"
+            },
+            {
+              "id": 2,
+              "name": "Erimayur-i"
+            },
+            {
+              "id": 3,
+              "name": "Erimayur-ii"
+            },
+            {
+              "id": 4,
+              "name": "Kannambra-i"
+            },
+            {
+              "id": 5,
+              "name": "Kannambra-ii"
+            },
+            {
+              "id": 6,
+              "name": "Kavasseri-i"
+            },
+            {
+              "id": 7,
+              "name": "Kavasseri-ii"
+            },
+            {
+              "id": 8,
+              "name": "Kizhakkencheri-i"
+            },
+            {
+              "id": 9,
+              "name": "Kizhakkencheri-ii"
+            },
+            {
+              "id": 10,
+              "name": "Puducode"
+            },
+            {
+              "id": 11,
+              "name": "Tarur-i"
+            },
+            {
+              "id": 12,
+              "name": "Tarur-ii"
+            },
+            {
+              "id": 13,
+              "name": "Vadakkancheri-i"
+            },
+            {
+              "id": 14,
+              "name": "Vadakkancheri-ii"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Attappadi",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Agali"
+            },
+            {
+              "id": 2,
+              "name": "Kallamala"
+            },
+            {
+              "id": 3,
+              "name": "Kottathara"
+            },
+            {
+              "id": 4,
+              "name": "Padavayal"
+            },
+            {
+              "id": 5,
+              "name": "Pudur"
+            },
+            {
+              "id": 6,
+              "name": "Sholayur"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Chittur",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Chittur (part)"
+            },
+            {
+              "id": 2,
+              "name": "Eruthempathy"
+            },
+            {
+              "id": 3,
+              "name": "Kozhinjampara"
+            },
+            {
+              "id": 4,
+              "name": "Kozhipathy"
+            },
+            {
+              "id": 5,
+              "name": "Moolathara"
+            },
+            {
+              "id": 6,
+              "name": "Nalleppilly"
+            },
+            {
+              "id": 7,
+              "name": "Ozhalapathy"
+            },
+            {
+              "id": 8,
+              "name": "Perumatty"
+            },
+            {
+              "id": 9,
+              "name": "Thekkedesom"
+            },
+            {
+              "id": 10,
+              "name": "Vadakarapathy"
+            },
+            {
+              "id": 11,
+              "name": "Valiyavallampathy"
+            },
+            {
+              "id": 12,
+              "name": "Vandithavalam"
+            },
+            {
+              "id": 13,
+              "name": "Elappully-i"
+            },
+            {
+              "id": 14,
+              "name": "Elappully-ii"
+            },
+            {
+              "id": 15,
+              "name": "Polpully"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Kollengode",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Koduvayur 1"
+            },
+            {
+              "id": 2,
+              "name": "Koduvayur-ii"
+            },
+            {
+              "id": 3,
+              "name": "Kollengode-i"
+            },
+            {
+              "id": 4,
+              "name": "Kollengode-ii"
+            },
+            {
+              "id": 5,
+              "name": "Muthalamada-i"
+            },
+            {
+              "id": 6,
+              "name": "Muthalamada-ii"
+            },
+            {
+              "id": 7,
+              "name": "Pattanchery"
+            },
+            {
+              "id": 8,
+              "name": "Puthunagaram (ct)"
+            },
+            {
+              "id": 9,
+              "name": "Thathamangalam (part)"
+            },
+            {
+              "id": 10,
+              "name": "Vadavannur"
+            },
+            {
+              "id": 11,
+              "name": "Peruvemba"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Kuzhalmannam",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Kottayi-i"
+            },
+            {
+              "id": 2,
+              "name": "Kottayi-ii"
+            },
+            {
+              "id": 3,
+              "name": "Kuthannur-i"
+            },
+            {
+              "id": 4,
+              "name": "Kuthannur-ii"
+            },
+            {
+              "id": 5,
+              "name": "Kuzhalmannam-i"
+            },
+            {
+              "id": 6,
+              "name": "Kuzhalmannam-ii"
+            },
+            {
+              "id": 7,
+              "name": "Mathur -i"
+            },
+            {
+              "id": 8,
+              "name": "Mathur -ii"
+            },
+            {
+              "id": 9,
+              "name": "Peringottukurissi-i"
+            },
+            {
+              "id": 10,
+              "name": "Peringottukurissi-ii"
+            },
+            {
+              "id": 11,
+              "name": "Thenkurissi-i"
+            },
+            {
+              "id": 12,
+              "name": "Thenkurissi-ii"
+            },
+            {
+              "id": 13,
+              "name": "Kannadi-i"
+            },
+            {
+              "id": 14,
+              "name": "Kannadi-ii"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Malampuzha",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Akathethara"
+            },
+            {
+              "id": 2,
+              "name": "Kodumba"
+            },
+            {
+              "id": 3,
+              "name": "Malampuzha-i"
+            },
+            {
+              "id": 4,
+              "name": "Malampuzha-ii"
+            },
+            {
+              "id": 5,
+              "name": "Marutharode (ct)"
+            },
+            {
+              "id": 6,
+              "name": "Pudussery Central (ct)"
+            },
+            {
+              "id": 7,
+              "name": "Pudussery East"
+            },
+            {
+              "id": 8,
+              "name": "Pudussery West (ct)"
+            },
+            {
+              "id": 9,
+              "name": "Puthuppariyaram 1"
+            },
+            {
+              "id": 10,
+              "name": "Puthuppariyaram-ii"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Mannarkad",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Alanallur-i"
+            },
+            {
+              "id": 2,
+              "name": "Alanallur-ii"
+            },
+            {
+              "id": 3,
+              "name": "Alanallur-iii"
+            },
+            {
+              "id": 4,
+              "name": "Karimba -i"
+            },
+            {
+              "id": 5,
+              "name": "Karimba -ii"
+            },
+            {
+              "id": 6,
+              "name": "Kottoppadam-i"
+            },
+            {
+              "id": 7,
+              "name": "Kottoppadam-ii"
+            },
+            {
+              "id": 8,
+              "name": "Kottoppadam-iii"
+            },
+            {
+              "id": 9,
+              "name": "Kumaramputhur"
+            },
+            {
+              "id": 10,
+              "name": "Mannarkad-i (ct)"
+            },
+            {
+              "id": 11,
+              "name": "Mannarkad-ii"
+            },
+            {
+              "id": 12,
+              "name": "Palakkayam"
+            },
+            {
+              "id": 13,
+              "name": "Payyanadam"
+            },
+            {
+              "id": 14,
+              "name": "Pottassery- I"
+            },
+            {
+              "id": 15,
+              "name": "Pottassery- Ii"
+            },
+            {
+              "id": 16,
+              "name": "Thachampara"
+            },
+            {
+              "id": 17,
+              "name": "Thachanattukara-i"
+            },
+            {
+              "id": 18,
+              "name": "Thachanattukara-ii"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Nemmara",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Mangalam Dam"
+            },
+            {
+              "id": 2,
+              "name": "Melarcode"
+            },
+            {
+              "id": 3,
+              "name": "Vandazhi-i"
+            },
+            {
+              "id": 4,
+              "name": "Vandazhi-ii"
+            },
+            {
+              "id": 5,
+              "name": "Ayiloor"
+            },
+            {
+              "id": 6,
+              "name": "Elavancherry"
+            },
+            {
+              "id": 7,
+              "name": "Kairady"
+            },
+            {
+              "id": 8,
+              "name": "Nelliyampathy"
+            },
+            {
+              "id": 9,
+              "name": "Nemmara"
+            },
+            {
+              "id": 10,
+              "name": "Pallassana"
+            },
+            {
+              "id": 11,
+              "name": "Thiruvazhiyad"
+            },
+            {
+              "id": 12,
+              "name": "Vallanghy"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Ottappalam",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Ambalapara - I"
+            },
+            {
+              "id": 2,
+              "name": "Ambalapara - II"
+            },
+            {
+              "id": 3,
+              "name": "Ananganadi"
+            },
+            {
+              "id": 4,
+              "name": "Chalavara"
+            },
+            {
+              "id": 5,
+              "name": "Lakkidi-perur - I"
+            },
+            {
+              "id": 6,
+              "name": "Lakkidi-perur - II"
+            },
+            {
+              "id": 7,
+              "name": "Nellaya"
+            },
+            {
+              "id": 8,
+              "name": "Thrikkadeeri - I"
+            },
+            {
+              "id": 9,
+              "name": "Thrikkadeeri - II"
+            },
+            {
+              "id": 10,
+              "name": "Vaniyamkulam - I"
+            },
+            {
+              "id": 11,
+              "name": "Vaniyamkulam - II (CT)"
+            },
+            {
+              "id": 12,
+              "name": "Vallapuzha"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Palakkad",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Keralassery"
+            },
+            {
+              "id": 2,
+              "name": "Kongad-i"
+            },
+            {
+              "id": 3,
+              "name": "Kongad-ii"
+            },
+            {
+              "id": 4,
+              "name": "Mankara"
+            },
+            {
+              "id": 5,
+              "name": "Mannur"
+            },
+            {
+              "id": 6,
+              "name": "Mundur-i"
+            },
+            {
+              "id": 7,
+              "name": "Mundur-ii"
+            },
+            {
+              "id": 8,
+              "name": "Parli-i"
+            },
+            {
+              "id": 9,
+              "name": "Parli-ii"
+            },
+            {
+              "id": 10,
+              "name": "Pirayiri (ct)"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Pattambi",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Koppam"
+            },
+            {
+              "id": 2,
+              "name": "Kulukkallur"
+            },
+            {
+              "id": 3,
+              "name": "Muthuthala (ct)"
+            },
+            {
+              "id": 4,
+              "name": "Ongallur -i (ct)"
+            },
+            {
+              "id": 5,
+              "name": "Ongallur -ii (ct)"
+            },
+            {
+              "id": 6,
+              "name": "Parudur"
+            },
+            {
+              "id": 7,
+              "name": "Pattambi (ct)"
+            },
+            {
+              "id": 8,
+              "name": "Thiruvegapura"
+            },
+            {
+              "id": 9,
+              "name": "Vilayur"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Sreekrishnapuram",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Karakurissi"
+            },
+            {
+              "id": 2,
+              "name": "Cherpulacherry"
+            },
+            {
+              "id": 3,
+              "name": "Kadampazhipuram-i"
+            },
+            {
+              "id": 4,
+              "name": "Kadampazhipuram-ii"
+            },
+            {
+              "id": 5,
+              "name": "Karimpuzha-i"
+            },
+            {
+              "id": 6,
+              "name": "Karimpuzha-ii"
+            },
+            {
+              "id": 7,
+              "name": "Pookkottukavu"
+            },
+            {
+              "id": 8,
+              "name": "Sreekrishnapuram -i"
+            },
+            {
+              "id": 9,
+              "name": "Sreekrishnapuram -ii"
+            },
+            {
+              "id": 10,
+              "name": "Vellinezhi"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Trithala",
+          "panchayats": [
+            {
+              "id": 1,
+              "name": "Anakkara"
+            },
+            {
+              "id": 2,
+              "name": "Chalissery"
+            },
+            {
+              "id": 3,
+              "name": "Kappur"
+            },
+            {
+              "id": 4,
+              "name": "Nagalassery"
+            },
+            {
+              "id": 5,
+              "name": "Pattithara"
+            },
+            {
+              "id": 6,
+              "name": "Thirumittacode-i"
+            },
+            {
+              "id": 7,
+              "name": "Thirumittacode -ii (ct)"
+            },
+            {
+              "id": 8,
+              "name": "Thrithala (ct)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pathanamthitta"
+    },
+    {
+      "id": 11,
+      "name": "Thrissur"
+    },
+    {
+      "id": 12,
+      "name": "Wayanad"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+.RoundedIconBUtton_outer {
+    width: 52px;
+    height: 52px;
+    background: #81F14D;
+    /* light border */
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 4px 8px -2px rgba(0, 0, 0, 0.13);
+    border-radius: 49px 49px 49px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.user_AnnouncementTemplate_outerDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.user_AnnouncementTemplate_innerDiv {
+    /* width: 800px; */
+    /* height: 400px; */
+    white-space: pre-wrap;    word-wrap: break-word;
+    flex-grow: 1;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* shadow spread */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.user_AnnouncementTemplate_autherDiv{
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-color: #81F14D;
+    border-radius: 12px 12px 0px 0px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.user_AnnouncementTemplate_contenDiv{
+    padding: 20px;
+}
+
+.user_AnnouncementTemplate_contenDiv .heading{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.user_AnnouncementTemplate_contenDiv .body{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.user_AnnouncementTemplate_contenDiv .intractionDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+}
+
+.user_AnnouncementTemplate_contenDiv .fullDiv{
+    /* background-color: #81F14D; */
+    width: 100%;
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.user_AnnouncementTemplate_contenDiv .time{
+    line-height: 0;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.user_AnnouncementTemplate_imageSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+}
+.user_AnnouncementTemplate_imageDiv{
+    height: 300px;
+    max-width: 400px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 12px 12px 12px 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 250px;
+}
+
+.user_AnnouncementTemplate_image{
+    height: 100%;
+    /* width: 100%; */
+    object-fit: contain;
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+    .user_AnnouncementTemplate_outerDiv {
+        padding:0px ;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+    }
+
+    
+}

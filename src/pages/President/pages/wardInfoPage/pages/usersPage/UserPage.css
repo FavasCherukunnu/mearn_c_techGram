@@ -1,0 +1,48 @@
+.user_wardInfo_userPage_outerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.user_wardInfo_userPage_outerDiv .title{
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.user_wardInfo_userPage_table{
+    width: 50%;
+}
+.user_wardInfo_userPage_table .title td{
+    font-weight: 700;
+    line-height: 3;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+
+}
+.user_wardInfo_userPage_table .third{
+    width: 70px;
+    padding: 10px 0px 10px 0px;
+}
+.user_wardInfo_userPage_table .second{
+    padding: 10px 0px 10px 0px;
+}
+.user_wardInfo_userPage_table .first{
+    width: 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+.user_wardInfo_userPage_table td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .user_wardInfo_userPage_table{
+        width: 95%;
+    }
+    
+}

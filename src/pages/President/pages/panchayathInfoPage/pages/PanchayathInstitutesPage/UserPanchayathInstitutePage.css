@@ -1,0 +1,9 @@
+.userPanchayathInstitute_listOuter{
+    display: flex;
+    flex-direction: column;
+}
+
+.userPanchayathInstitute_listOuter .innerWardText{
+    color: black;
+    font-size: 15px;
+}

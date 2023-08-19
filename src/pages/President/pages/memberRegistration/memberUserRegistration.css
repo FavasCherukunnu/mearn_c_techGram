@@ -1,0 +1,11 @@
+.member_memberRegistrationPage_topHeadDiv{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.member_memberRegistrationPage_topHeadDiv .title{
+    font-size: 30px;
+    font-weight: 700;
+}
